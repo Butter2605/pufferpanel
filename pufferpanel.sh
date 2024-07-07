@@ -1,7 +1,8 @@
 # A Script to auto install Pufferpanel 
 
 # First to install everything this machine needs
-apt install curl sudo neofetch systemctl -y
+apt install curl sudo neofetch systemctl wget -y
+neofetch
 
 curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh | sudo bash
 sudo apt-get install pufferpanel
